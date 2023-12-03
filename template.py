@@ -8,7 +8,7 @@ def answer_to_clipboard(answer):
 
 start_time = timeit.default_timer()
 
-with open("dayDAYNUMBER/DAYNUMBER.txt", "r+") as f:
+with open("DAYNUMBER.txt", "r+") as f:
     puzzle_input = [i for i in f.read().splitlines()]
 
 
